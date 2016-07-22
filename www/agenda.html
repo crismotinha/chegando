@@ -5,7 +5,10 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1"><!-- Ajuste de zoom no celular, nÃ£o toque :3 -->
 		<link rel="stylesheet" type="text/css" href="css/style.css"/>
 		<link rel="stylesheet" type="text/css" href="css/agenda.css"/>
-		 
+		<script src="json/esp.js"></script>
+		<script src="json/eventos.js"></script>
+		<script src="json/eventoesporte.js"></script>
+		<script src="json/local.js"></script>
 		
 		<title>Agenda</title>	
 	</head>			
@@ -51,45 +54,13 @@
 							</form>
 						</section>
 				</div>
-				<div class="linha" id="event">
-					<div class="pc30">
-					<a href="evento.html">	<img id="icon" src="images/atletismo.png"/> </a>
-						</div>
-					<div class="pc70" >
-					<a href="notificacao.html">	<img id="bell" align="right" src="images/bell.png"/></a>
-						<h2 class="fonth2"> Atletismo</h2>			   			   
-						<p class="tamfont">12/08/2016 - 09:30h às 13:10h</p>
-						<p class="tamfont">Estádio Olímpico, Engenhão</br>Engenho de Dentro, RJ</p>
-					</div>
-			    </div>
-				
-				<div class="linha" id="event">
-					<div class="pc30">
-					<a href="evento.html">	<img id="icon" src="images/atletismo.png"/> </a>
-					</div>
-					<div class="pc70">
-					<a href="notificacao.html">	<img id="bell" align="right" src="images/bell2.png"/></a>
-						<h2 class="fonth2"> Atletismo </h2>	
-						<p class="tamfont">12/08/2016 - 09:30h às 13:10h</p>
-						<p class="tamfont">Estádio Olímpico, Engenhão</br>Engenho de Dentro, RJ</p>
-					</div>
+				<div id="listaEventos">
 				</div>
-				
-				<div class="linha" id="event">	
-					<div class="pc30">
-					<a href="evento.html">	<img id="icon" src="images/atletismo.png"></a>		  
-					</div>
-					<div class="pc70">
-					<a href="notificacao.html">	<img id="bell" align="right" src="images/bell.png"/></a>
-						<h2 class="fonth2"> Atletismo </h2>	
-						<p class="tamfont"> 12/08/2016 - 22:20h às 23:25h <p>
-						<p class="tamfont"> Estádio Olímpico, Engenhão</br>Engenho de Dentro, RJ</p>
-					</div>  
-				</div>
-			
 			</div> 
 			
-			<div id="shadow" class="shadow" onclick="slideclose()"></div>
+			<div id="shadow" class="shadow" onclick="slideclose()">
+			</div>
 			<script src="js/script.js"></script>
+			<script src="js/agenda.js"></script>
 		</body>
 </html>

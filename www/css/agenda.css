@@ -25,7 +25,9 @@
 	margin:5%;
 	padding-top:8%;
 }
-
+.linha {
+    height: 100px;
+}
 
 a {
     color: #1e7ad3;

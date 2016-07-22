@@ -6,6 +6,8 @@
 		<!-- Ajuste de zoom no celular, não toque :3 -->
 		<link rel="stylesheet" type="text/css" href="css/style.css"/>
 		<link rel="stylesheet" type="text/css" href="css/principal.css"/>
+		<script type="text/javascript" src="cordova.js"></script>
+		<script type="text/javascript" src="js/notificacao.js"></script>
 		<title>Tela 3 - Tela Principal</title>	
 		 
 	</head>			
@@ -59,9 +61,12 @@
 						</div></a>
 					</div>
 					<div class="pc70">
-						<h3>Voleibol Femino</h3>
-						<p class="bigText">06/08/2016 - 09:30</p>
-						<p class="bigText">Maracanãzinho, RJ - Maracanã</p>
+						<h3 id="title">Voleibol Femino</h3>
+						<p class="bigText" id="date">16/08/2016</p>
+						<p class="bigText" id="time">14:00</p>
+						<p class="bigText" id="message">Maracanãzinho, RJ - Maracanã</p>
+						<p class="bigText" id="idevento" style="display: none;">001</p>
+						<a target="_blank" onclick="add_reminder()" style="text-decoration: none"><button>Add</button></a>
 					</div>
 				</div>
 
@@ -71,9 +76,12 @@
 						</div></a>
 					</div>
 					<div class="pc70">
-						<h3>Boxe</h3>
-						<p class="bigText">05/08/2016 - 14:00h</p>
-						<p class="bigText">Rio Centro Pavilhão 6 - RJ, Barra da Tijuca</p>
+						<h3 id="title">Boxe</h3>
+						<p class="bigText" id="date">16/08/2016</p>
+						<p class="bigText" id="time">14:00h</p>
+						<p class="bigText" id="message">Rio Centro Pavilhão 6 - RJ, Barra da Tijuca</p>
+						<p class="bigText" id="idevento" style="display: none;">001</p>
+						<a target="_blank" onclick="add_reminder()" style="text-decoration: none"><button>Add</button></a>
 					</div>
 				</div>
 			</div>

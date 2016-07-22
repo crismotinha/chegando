@@ -5,12 +5,10 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1"><!-- Ajuste de zoom no celular, não toque :3 -->
 		<link rel="stylesheet" type="text/css" href="css/style.css"/>
 		<link rel="stylesheet" type="text/css" href="css/locais.css"/>
-		<script type="text/javascript" src="js/Navegacao.js"></script>
 		<link rel="stylesheet" type="text/css" href="css/agenda.css"/>
-		<script src="js/script.js"></script>
 		<script src="json/local.js"></script>
-		<script src="js/Navegacao.js"></script>
-		<!--<script src="js/allinjs.js"></script>-->
+		<script src="js/script.js"></script>
+
 		
 		<title>Locais</title>	
 	</head>			
@@ -46,6 +44,10 @@
 					<h1> Locais </h1>
 				</div>
 			</header>
+			<form>
+				<input type="text" name="buscaLocais" id="busca">
+				<p onclick="buscarLocais()">Buscar</p>
+			</form>
             <div id="locaisaqui">
 			</div>
 			<div id="shadow" class="shadow" onclick="slideclose()">
